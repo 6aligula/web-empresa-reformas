@@ -1,13 +1,12 @@
 import React from 'react'
 import './styles/Footer.css'
 import icono from '../img/icono.png'
-//import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
         <div className='box'>
 
-            <div className='container'>
+            <div className='whats_icon'>
                 <input type="checkbox" id='btn-mas' />
                 <div className='btn-mas'>
                     <label htmlFor="btn-mas" className='bi bi-x-circle-fill'></label>
@@ -15,7 +14,7 @@ const Footer = () => {
                 <div className='container-redes'>
                     <p>
                         <a href="https://api.whatsapp.com/send?phone=+34677871148" target="_blank">
-                            <img className="boton" src={icono} alt="whats" />
+                            <img className="boton" src={icono} alt="" />
                         </a>
                     </p>
                 </div>
@@ -24,7 +23,7 @@ const Footer = () => {
             <footer>
                 <div className='row'>
                     <div className="col-sm-6">
-                        &copy; 2023–2024 Reformas y rehabilitaciones integrales  &middot;
+                        &copy; 2023–2024 Reformas y rehabilitaciones integrales Vicent &middot;
                     </div>
                     <div className="col-sm-6 social">
                         <p>
