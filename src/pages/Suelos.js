@@ -6,13 +6,9 @@ import thirdImg from '../img/floor/third.jpg';
 import fourImg from '../img/floor/four.jpg';
 import fiveImg from '../img/floor/five.jpg';
 import sixImg from '../img/floor/six.jpg';
+import Modal from '../components/Modal';
 import '../components/styles/Lavabos.css';
 
-// function showMax() {
-//     var image = document.getElementById('image');
-//     image.style.width = '1080px';
-//     image.style.height = '720px';
-// }
 const Suelos = () => {
     return (
         <div>
@@ -26,25 +22,31 @@ const Suelos = () => {
 
             <Row>
                 <Col md={6}>
-                    <img id='image' src={firstImg} alt='IA' />
+                    <h5>Barcelona</h5>
+                    <Modal pathImage={firstImg} title='Barcelona' />
                 </Col>
                 <Col md={6}>
-                    <img src={secondImg} alt='IA' />
+                    <h5>Artic</h5>
+                    <Modal pathImage={secondImg} title='Artic' />
                 </Col>
             </Row>
             <Row>
                 <Col md={6}>
+                    <h5>Arizona</h5>
                     <img src={thirdImg} alt='IA' />
                 </Col>
                 <Col md={6}>
+                    <h5>Belice</h5>
                     <img src={fourImg} alt='IA' />
                 </Col>
             </Row>
             <Row>
                 <Col md={6}>
+                    <h5>Berna</h5>
                     <img src={fiveImg} alt='IA' />
                 </Col>
                 <Col md={6}>
+                    <h5>Boston</h5>
                     <img src={sixImg} alt='IA' />
                 </Col>
             </Row>

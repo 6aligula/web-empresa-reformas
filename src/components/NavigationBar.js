@@ -13,7 +13,7 @@ const NavigationBar = () => {
 
                     <LinkContainer to='/'>
 
-                        <Navbar.Brand href="/">Reformas Integrales Vicent</Navbar.Brand>
+                        <Navbar.Brand href="/">Reformas Vicent</Navbar.Brand>
                     </LinkContainer>
 
                 </Container>

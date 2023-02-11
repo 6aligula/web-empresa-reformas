@@ -14,14 +14,3 @@ const AddButton = () => {
 }
 
 export default AddButton
-
-// export default function AddButton(props) {
-//     return (
-//         <Link to="/main/ofertas">
-//             <button>
-//                 Ofertas
-//             </button>
-//         </Link>
-
-//     )
-// }

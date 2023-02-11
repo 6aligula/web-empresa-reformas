@@ -1,5 +1,6 @@
 import React from 'react';
-import { Row, Col, Button } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
+import AddButton from '../components/AddButton';
 import firstImg from '../img/kitchen/primera.jpg';
 import secondImg from '../img/kitchen/segunda.jpg';
 import thirdImg from '../img/kitchen/tercera.jpg';
@@ -11,6 +12,7 @@ const Cocinas = () => {
 
     return (
         <div>
+            <AddButton className='home'>Volver</AddButton>
             <Row>
                 <Col md={12}>
                     <h1>Sección de Cocinas</h1>

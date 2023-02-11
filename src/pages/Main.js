@@ -2,9 +2,10 @@ import React from "react";
 import CarouselDady from '../components/CarouselDady';
 import Cards from "../components/Cards";
 import { Row, Col } from 'react-bootstrap';
-import bath from '../img/coverBath.png'
-import kitchen from '../img/coverKitchen.png'
-import floor from '../img/coverFloor.png'
+import bath from '../img/coverBath.png';
+import kitchen from '../img/coverKitchen.png';
+import floor from '../img/coverFloor.png';
+import '../components/styles/Main.css';
 
 const Main = () => {
 
