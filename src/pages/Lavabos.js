@@ -1,14 +1,22 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import firstImg from '../img/bath/first.png';
-import secondImg from '../img/bath/second.png';
-import thirdImg from '../img/bath/third.png';
-import fourImg from '../img/bath/four.png';
+import AddButton from '../components/AddButton';
+import firstImg from '../img/bath/first.jpg';
+import secondImg from '../img/bath/second.jpg';
+import thirdImg from '../img/bath/third.jpg';
+import fourImg from '../img/bath/four.jpg';
+import fiveImg from '../img/bath/five.jpg';
+import sixImg from '../img/bath/six.jpg';
+import sevenImg from '../img/bath/seven.jpg';
+import eightImg from '../img/bath/eight.jpg';
+import Modal from '../components/Modal';
 import '../components/styles/Lavabos.css';
 
+const widthBathRoom = '35%';
 const Lavabos = () => {
     return (
         <div className=''>
+            <AddButton className='home'>Volver</AddButton>
             <Row>
                 <Col md={12}>
                     <h1>Sección de Lavabos</h1>
@@ -18,20 +26,35 @@ const Lavabos = () => {
             </Row>
 
             <Row>
-                <Col md={6}>
-                    <img src={firstImg} alt='IA' />
+                <Col md={6} >
+                    <Modal pathImage={firstImg} medida={widthBathRoom} />
                 </Col>
                 <Col md={6}>
-                    <img src={secondImg} alt='IA' />
+                    <Modal pathImage={secondImg} medida={widthBathRoom} />
                 </Col>
             </Row>
-            <br></br>
             <Row>
                 <Col md={6}>
-                    <img src={thirdImg} alt='IA' />
+                    <Modal pathImage={thirdImg} medida={widthBathRoom} />
                 </Col>
                 <Col md={6}>
-                    <img src={fourImg} alt='IA' />
+                    <Modal pathImage={fourImg} medida={widthBathRoom} />
+                </Col>
+            </Row>
+            <Row>
+                <Col md={6}>
+                    <Modal pathImage={fiveImg} medida={widthBathRoom} />
+                </Col>
+                <Col md={6}>
+                    <Modal pathImage={sixImg} medida={widthBathRoom} />
+                </Col>
+            </Row>
+            <Row>
+                <Col md={6}>
+                    <Modal pathImage={sevenImg} medida={widthBathRoom} />
+                </Col>
+                <Col md={6}>
+                    <Modal pathImage={eightImg} medida={widthBathRoom} />
                 </Col>
             </Row>
             <br></br>

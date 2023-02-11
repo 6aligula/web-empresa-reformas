@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button } from 'react-bootstrap';
 
-function Modal({ pathImage, title }) {
+function Modal({ pathImage, title, medida }) {
     const [showModal, setShowModal] = useState(false);
 
     const toggleModal = () => {
@@ -18,7 +18,7 @@ function Modal({ pathImage, title }) {
                     left: '50%',
                     transform: 'translate(-50%, -50%)',
                     background: 'white',
-                    width: '80%',
+                    width: medida,
                     padding: '20px',
                     zIndex: '999',
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
+import AddButton from '../components/AddButton';
 import firstImg from '../img/floor/first.jpg';
 import secondImg from '../img/floor/second.jpg';
 import thirdImg from '../img/floor/third.jpg';
@@ -10,8 +11,10 @@ import Modal from '../components/Modal';
 import '../components/styles/Lavabos.css';
 
 const Suelos = () => {
+    const widthFloor = '45%';
     return (
         <div>
+            <AddButton className='home'>Volver</AddButton>
             <Row>
                 <Col md={12}>
                     <h1>Sección de Azulejos y baldosas</h1>
@@ -23,31 +26,31 @@ const Suelos = () => {
             <Row>
                 <Col md={6}>
                     <h5>Barcelona</h5>
-                    <Modal pathImage={firstImg} title='Barcelona' />
+                    <Modal pathImage={firstImg} title='Barcelona' medida={widthFloor} />
                 </Col>
                 <Col md={6}>
                     <h5>Artic</h5>
-                    <Modal pathImage={secondImg} title='Artic' />
+                    <Modal pathImage={secondImg} title='Artic' medida={widthFloor} />
                 </Col>
             </Row>
             <Row>
                 <Col md={6}>
                     <h5>Arizona</h5>
-                    <img src={thirdImg} alt='IA' />
+                    <Modal pathImage={thirdImg} title='Arizona' medida={widthFloor} />
                 </Col>
                 <Col md={6}>
                     <h5>Belice</h5>
-                    <img src={fourImg} alt='IA' />
+                    <Modal pathImage={fourImg} title='Belice' medida={widthFloor} />
                 </Col>
             </Row>
             <Row>
                 <Col md={6}>
                     <h5>Berna</h5>
-                    <img src={fiveImg} alt='IA' />
+                    <Modal pathImage={fiveImg} title='Berna' medida={widthFloor} />
                 </Col>
                 <Col md={6}>
                     <h5>Boston</h5>
-                    <img src={sixImg} alt='IA' />
+                    <Modal pathImage={sixImg} title='Boston' medida={widthFloor} />
                 </Col>
             </Row>
             <br></br>

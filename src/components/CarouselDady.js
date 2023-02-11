@@ -1,8 +1,8 @@
 import { Carousel, Image } from 'react-bootstrap';
-import grassBefore from "../img/carusel/bath1.png";
-import grassAfter from "../img/carusel/bath2.png";
-import naturalGrassA from "../img/carusel/bath3.png";
-import naturalGrassF from "../img/carusel/bath4.png";
+import grassBefore from "../img/carusel/first.jpg";
+import grassAfter from "../img/carusel/second.jpg";
+import naturalGrassA from "../img/carusel/third.jpg";
+import naturalGrassF from "../img/carusel/four.jpg";
 //import './styles/Carro.css'
 
 

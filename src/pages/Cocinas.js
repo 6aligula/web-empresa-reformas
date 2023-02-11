@@ -9,6 +9,7 @@ import Modal from '../components/Modal';
 import '../components/styles/Lavabos.css';
 
 const Cocinas = () => {
+    const widthKitchen = '80%';
 
     return (
         <div>
@@ -24,21 +25,21 @@ const Cocinas = () => {
             <Row>
                 <Col md={6}>
                     <h5>Cocina Normal</h5>
-                    <Modal pathImage={firstImg} title='Cocina Normal' />
+                    <Modal pathImage={firstImg} title='Cocina Normal' medida={widthKitchen} />
                 </Col>
                 <Col md={6}>
                     <h5>Cocina en L</h5>
-                    <Modal pathImage={secondImg} title='Cocina en L' />
+                    <Modal pathImage={secondImg} title='Cocina en L' medida={widthKitchen} />
                 </Col>
             </Row>
             <Row>
                 <Col md={6}>
                     <h5>Cocina en U</h5>
-                    <Modal pathImage={thirdImg} title='Cocina en U' />
+                    <Modal pathImage={thirdImg} title='Cocina en U' medida={widthKitchen} />
                 </Col>
                 <Col md={6}>
                     <h5>Cocina en Isla</h5>
-                    <Modal pathImage={fourImg} title='Cocina en Isla' />
+                    <Modal pathImage={fourImg} title='Cocina en Isla' medida={widthKitchen} />
                 </Col>
             </Row>
             <br></br>
