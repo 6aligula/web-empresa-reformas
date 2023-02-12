@@ -43,7 +43,7 @@ const Footer = () => {
                     </div>
                     <div className="col-sm-6 social">
                         <p>
-                            <a href="https://www.instagram.com/jardineriamarcos/?hl=es" target="_blank">
+                            <a href="https://www.instagram.com/reformas_vicent/" target="_blank">
                                 <i className="bi bi-instagram"></i>
                                 Instagram
                             </a> &middot;
